@@ -1,0 +1,189 @@
+/*This Custom CSS file has not been structured in any particular order. 
+
+Modify this file to your hearts content and make your website look awesome!*/
+
+
+body{
+	background-color: white;
+	padding-top: 50px;
+	padding-left: 50px;
+		padding-right: 50px;
+}
+
+/*Home*/
+.full-page-bg {
+  position: absolute;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  width:100%;
+  min-height: 100vh;
+background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+/*Cards*/
+.card{border: none; background-color: transparent;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.nav{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+/*Navbar Rules*/
+img.nav-bar-img{
+	margin-right: 10px;
+}
+
+.navbar{
+	background-color: #fff;
+
+}
+
+a.navbar-brand{
+	font-family:'Montserrat', Sans-Serif;
+	font-size: 
+}
+
+/*Floating Nav*/
+
+
+.floating-nav{
+	display: left;
+	position: fixed;
+	margin-top: 10px;
+	margin-left:400px;
+	list-style-type: none;
+}
+
+	a.float-nav-link{
+		display: inline;
+		color: #595959;
+		font-weight: 600;
+	}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: dimgrey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/*Image Rules*/
+
+img{
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+
+/*Font Override Rules*/
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 20px;
+}
+	h1.welcome-special{
+		font-size: 90px;
+	}
+
+	h2.welcome-special-sub{
+		font-family: 'Lato', Sans-Serif;
+		font-size: 30px;
+	}
+
+	h3{
+		color: black;
+		letter-spacing: -0.5px;
+	}
+
+p {
+	text-align: left;
+}
+
+
+li, span, a {
+	text-align: right;
+	font-weight: 300;
+}
+
+	p{
+		color: #494949;
+		line-height: 25px;
+		margin-bottom: 30px;
+	}
+
+span.img-caption{
+	display: block;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 10px 0px 10px 0px;
+}
+
+/*Container/class etc Override Rules*/
+.welcome-message{
+	margin-top: 200px;
+}
+
+.welcome-button-container{
+	margin-top: 20px;
+}
+
+.welcome-button{
+	background-color: transparent;
+	border-radius: 0px 0px 0px 0px;
+	border: 3px solid #000;
+	font-family:'Montserrat', Sans-Serif;
+	font-size: 15px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.welcome-button:hover{
+	background-color: #000;
+	border-color: #000;
+}
+
+.master-heading{
+	padding-top: 50px;	
+}
+
+.section-heading{
+	padding-top: 100px;	
+}
+
+.slide-show{
+	padding: 30px 0px 50px 0px;
+}
+
+/*Footer*/
+.footer{
+	margin-top: 50px;
+	padding-top: 30px;
+	width: 100%;
+	min-height: 100px;
+	background-color: #989898;
+	border-top: 1px solid #727272;
+}
+
+
+
